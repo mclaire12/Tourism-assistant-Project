@@ -1,0 +1,782 @@
+{
+  "meta": {
+    "country": "Rwanda",
+    "generated": "2026-11-04",
+    "record_count": 19,
+    "purpose": "Knowledge base for a Rwanda-only tourism RAG assistant",
+    "important_notes": [
+      "Prices, permits and advisories change often and sources disagree. Every record has last_verified and source_urls; the app should show 'check official sources (RDB, your government)' next to costs and safety.",
+      "source_confidence: high = multiple consistent sources or official; medium = operator/aggregator sources; low = thin sourcing, verify before relying.",
+      "Most sources are tour-operator sites, not official RDB pages. Before launch, verify costs against visitrwanda.com / rdb.rw."
+    ],
+    "seasons": {
+      "long_dry": "June-September",
+      "short_dry": "mid-December-February",
+      "rains": "March-May and October-November (heavier rains can affect trails and roads)"
+    },
+    "advisory_summary": {
+      "date_checked": "2026-11-04",
+      "points": [
+        "Fighting in eastern DRC affects border areas. Several governments (Australia, Ireland) advise against travel to Rubavu district incl. Gisenyi; the US advises against travel within 10 km of the DRC border in Rubavu and Rusizi.",
+        "An Ebola outbreak in DRC was announced on 17 May 2026; one government source says travellers who were in DRC in the previous 30 days are denied entry to Rwanda. DRC land borders may close at short notice.",
+        "Advisory levels differ by country and change; Kigali, Akagera and interior circuits are described as the more stable areas, but travellers should check their own government's advice."
+      ],
+      "sources": [
+        "https://travel.state.gov/en/international-travel/travel-advisories/rwanda.html",
+        "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+        "https://www.ireland.ie/en/dfa/overseas-travel/advice/rwanda/"
+      ]
+    }
+  },
+  "places": [
+    {
+      "id": "volcanoes-np",
+      "name": "Volcanoes National Park",
+      "type": "national_park",
+      "region": "Northern Province",
+      "district": "Musanze",
+      "moods": [
+        "adventure",
+        "wildlife",
+        "nature",
+        "luxury",
+        "bucket-list"
+      ],
+      "interests": [
+        "gorilla trekking",
+        "golden monkeys",
+        "hiking",
+        "primates"
+      ],
+      "best_season": "Dry seasons (June-September and mid-December-February) give easier, less muddy treks; trekking runs year-round.",
+      "budget_level": "high",
+      "typical_duration": "2-3 days",
+      "description": "Rwandan slice of the Virunga volcanoes and the home of habituated mountain gorilla families. Treks start with a morning briefing at Kinigi and allow one hour with a gorilla family.",
+      "activities": [
+        "gorilla trekking",
+        "golden monkey tracking",
+        "volcano hikes",
+        "cultural village visits nearby"
+      ],
+      "costs_note": "Foreign non-resident gorilla permit is reported at USD 1,500 per person (set by RDB; same price quoted for 2026 and 2027). Residents about USD 500, Rwandan/EAC citizens about USD 200. Daily supply is capped (sources say 96 or 112 permits/day, 12 or 14 families). One operator site mentions a 30% discount (USD 1,050) for Nov-May when combined with Nyungwe/Akagera, but other sources say the price is fixed, so confirm with RDB. Book 3-6 months ahead.",
+      "safety_note": "Part of the park borders the DRC. Some governments advise extra caution or reconsidering travel near the border; permits were reportedly paused during past security incidents. Follow RDB guidance.",
+      "access_from_kigali": "Roughly 2 hours by road to Musanze/Kinigi (approximate).",
+      "tips": [
+        "Book permits through RDB or a licensed operator early",
+        "Pack rain gear and sturdy boots",
+        "Gorilla treks are physically demanding; ask about difficulty level"
+      ],
+      "source_urls": [
+        "https://www.volcanoesnationalpark.org/gorilla-permits/",
+        "https://eastafricasafaris.com/gorilla-trekking-permit-cost/",
+        "https://www.semugorillasafarisandtours.com/rwanda-gorilla-permit-price-2026-2027/",
+        "https://travel.state.gov/en/international-travel/travel-advisories/rwanda.html"
+      ],
+      "source_confidence": "high",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "nyungwe-np",
+      "name": "Nyungwe Forest National Park",
+      "type": "national_park",
+      "region": "Southern/Western Province",
+      "district": "Nyamasheke, Rusizi, Nyaruguru",
+      "moods": [
+        "adventure",
+        "nature",
+        "wildlife",
+        "hiking",
+        "birdwatching"
+      ],
+      "interests": [
+        "chimpanzee trekking",
+        "canopy walk",
+        "monkeys",
+        "birding",
+        "waterfalls"
+      ],
+      "best_season": "Dry seasons (June-September, December-February) for easier trails; the forest is wet and misty year-round.",
+      "budget_level": "mid",
+      "typical_duration": "2-3 days",
+      "description": "One of Africa's oldest montane rainforests, known for chimpanzee tracking, colobus and other monkeys, rich birdlife, and a canopy walkway about 60-70 m above the forest floor.",
+      "activities": [
+        "chimpanzee trekking",
+        "canopy walk",
+        "colobus monkey trekking",
+        "guided birding",
+        "forest hikes"
+      ],
+      "costs_note": "Reported fees vary by source and date: canopy walk about USD 40-80 for international visitors; chimpanzee trekking reported from USD 90 up to about USD 150; park entry fees may add to this. Treat as approximate and confirm with RDB.",
+      "safety_note": "Parts of Rusizi district near the DRC border are covered by some travel advisories; the forest itself is generally treated as a standard tourism circuit.",
+      "access_from_kigali": "About 5-6 hours by road.",
+      "tips": [
+        "Chimp permits are limited, so book early",
+        "Bring layers and rain gear"
+      ],
+      "source_urls": [
+        "https://eastafricantrails.com/?p=467",
+        "https://www.eastafricantrails.com/?p=363",
+        "https://safarifind.com/blog/nyungwe-national-park-safari-cost-2027-budget-by-itinerary"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "akagera-np",
+      "name": "Akagera National Park",
+      "type": "national_park",
+      "region": "Eastern Province",
+      "district": "Kayonza, Kirehe, Nyagatare",
+      "moods": [
+        "wildlife",
+        "family",
+        "relaxing",
+        "nature",
+        "adventure"
+      ],
+      "interests": [
+        "game drives",
+        "big five",
+        "boat safari",
+        "birdwatching",
+        "night drive"
+      ],
+      "best_season": "Dry seasons (June-September and mid-December-February) for wildlife viewing; accessible year-round.",
+      "budget_level": "mid",
+      "typical_duration": "2-3 days",
+      "description": "Rwanda's only savannah park, with lakes, papyrus swamps and rolling plains. Lions were reintroduced in 2015 and black rhinos in 2017, so all Big Five are present, though sightings are not guaranteed.",
+      "activities": [
+        "game drives",
+        "boat trips",
+        "night drives",
+        "birding",
+        "camping",
+        "guided drives"
+      ],
+      "costs_note": "Entry fees depend on visitor category and length of stay; operator sites quote roughly USD 50-100 per day for non-residents. Reported extras: ranger guide about USD 25 half-day / USD 40 full-day, night drive about USD 40. Confirm current rates with the park.",
+      "safety_note": "Generally treated as one of the safer, interior tourism circuits.",
+      "access_from_kigali": "About 110 km, roughly 2-2.5 hours by road.",
+      "tips": [
+        "A guide helps a lot with finding lions",
+        "Roads can be rough; 4x4 recommended"
+      ],
+      "source_urls": [
+        "https://safarifind.com/ar/destinations/akagera-national-park",
+        "https://whisperssafarisuganda.com/?p=4945",
+        "https://www.wanderlustmovement.org/?p=3149"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "gishwati-mukura-np",
+      "name": "Gishwati-Mukura National Park",
+      "type": "national_park",
+      "region": "Western Province",
+      "district": "Rutsiro, Ngororero",
+      "moods": [
+        "nature",
+        "hiking",
+        "wildlife",
+        "off-the-beaten-path",
+        "budget"
+      ],
+      "interests": [
+        "chimpanzees",
+        "golden monkeys",
+        "forest hikes",
+        "conservation"
+      ],
+      "best_season": "Dry seasons for easier trails.",
+      "budget_level": "low-mid",
+      "typical_duration": "1-2 days",
+      "description": "Rwanda's newest national park, made of two small forest fragments (Gishwati and Mukura) being restored. Home to a small chimpanzee group, golden monkeys, L'Hoest's and blue monkeys.",
+      "activities": [
+        "primate tracking",
+        "forest walks",
+        "hiking",
+        "waterfalls"
+      ],
+      "costs_note": "Fees not verified; check with RDB.",
+      "safety_note": "Located in the west; check current advisories for nearby border districts.",
+      "access_from_kigali": "Typically reached from the Lake Kivu / Karongi side (distance not verified).",
+      "tips": [],
+      "source_urls": [
+        "https://www.newtimes.co.rw/article/200727/News/national-parks-and-museums-to-visit-in-rwanda",
+        "https://bujukuecotours.com/?p=15094"
+      ],
+      "source_confidence": "low",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "kivu-karongi",
+      "name": "Lake Kivu - Karongi (Kibuye)",
+      "type": "lake",
+      "region": "Western Province",
+      "district": "Karongi",
+      "moods": [
+        "relaxing",
+        "romantic",
+        "nature",
+        "hiking",
+        "family"
+      ],
+      "interests": [
+        "lake views",
+        "kayaking",
+        "boat trips",
+        "islands",
+        "coffee",
+        "hiking"
+      ],
+      "best_season": "Dry seasons for hiking and cycling; March-May and October-November downpours can affect trails.",
+      "budget_level": "mid",
+      "typical_duration": "2-3 days",
+      "description": "Quiet lakeside town with hills, islands and lodges, often described as calmer than Gisenyi. A good base for the Congo Nile Trail and boat or kayak trips.",
+      "activities": [
+        "kayaking",
+        "boat trips to islands",
+        "beach relaxation",
+        "day hikes",
+        "coffee washing station visits"
+      ],
+      "costs_note": "Costs vary by lodge and activity; not standardized.",
+      "safety_note": "Karongi is not in the border districts named in most advisories, but check current guidance for the lake area.",
+      "access_from_kigali": "Several hours by road (distance not verified).",
+      "tips": [],
+      "source_urls": [
+        "https://wheretheroadforks.com/?p=1464",
+        "https://www.arcadiasafaris.com/lake-kivu-attractions-in-rwanda/",
+        "https://theculturetrip.com/africa/rwanda/articles/exploring-rwandas-congo-nile-trail"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "kivu-rubavu",
+      "name": "Lake Kivu - Rubavu (Gisenyi)",
+      "type": "lake",
+      "region": "Western Province",
+      "district": "Rubavu",
+      "moods": [
+        "relaxing",
+        "family",
+        "nightlife",
+        "beach"
+      ],
+      "interests": [
+        "beaches",
+        "lake resort town",
+        "nightlife"
+      ],
+      "best_season": "Dry seasons.",
+      "budget_level": "mid",
+      "typical_duration": "1-2 days",
+      "description": "Largest resort town on Lake Kivu, known for beaches and nightlife. It sits next to the DRC border crossing at Goma.",
+      "activities": [
+        "beach time",
+        "boat trips",
+        "kayaking"
+      ],
+      "costs_note": "Not standardized.",
+      "safety_note": "IMPORTANT: several governments (e.g. Australia, Ireland) advise against travel to Rubavu district including Gisenyi due to instability and cross-border risk; the US advises against travel within 10 km of the DRC border in Rubavu. Recommend alternatives such as Karongi unless the user has checked current advice.",
+      "access_from_kigali": "About 4 hours by road.",
+      "tips": [
+        "Check your own government's travel advisory before choosing this destination"
+      ],
+      "source_urls": [
+        "https://travel.state.gov/en/international-travel/travel-advisories/rwanda.html",
+        "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+        "https://www.ireland.ie/en/dfa/overseas-travel/advice/rwanda/"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "kivu-rusizi",
+      "name": "Lake Kivu - Rusizi (Cyangugu/Kamembe)",
+      "type": "lake",
+      "region": "Western/Southern Province",
+      "district": "Rusizi",
+      "moods": [
+        "relaxing",
+        "nature",
+        "off-the-beaten-path"
+      ],
+      "interests": [
+        "lake views",
+        "gateway to Nyungwe",
+        "southern end of Congo Nile Trail"
+      ],
+      "best_season": "Dry seasons.",
+      "budget_level": "mid",
+      "typical_duration": "1-2 days",
+      "description": "Less-visited southern end of Lake Kivu near the Nyungwe gateway, with a small airport at Kamembe.",
+      "activities": [
+        "lake views",
+        "combining with Nyungwe"
+      ],
+      "costs_note": "Not standardized.",
+      "safety_note": "Parts of Rusizi within 10 km of the DRC border are under 'reconsider travel' or 'do not travel' advice from several governments. Check current advisories and the exact location of lodgings.",
+      "access_from_kigali": "Long road trip; Kamembe airport nearby.",
+      "tips": [],
+      "source_urls": [
+        "https://travel.state.gov/en/international-travel/travel-advisories/rwanda.html",
+        "https://www.smartraveller.gov.au/destinations/africa/rwanda",
+        "https://www.ireland.ie/en/dfa/overseas-travel/advice/rwanda/"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "congo-nile-trail",
+      "name": "Congo Nile Trail",
+      "type": "trail",
+      "region": "Western Province",
+      "district": "Rubavu, Rutsiro, Karongi, Nyamasheke, Rusizi",
+      "moods": [
+        "adventure",
+        "hiking",
+        "cycling",
+        "nature",
+        "budget"
+      ],
+      "interests": [
+        "hiking",
+        "mountain biking",
+        "kayaking",
+        "tea and coffee farms",
+        "village stays"
+      ],
+      "best_season": "Dry seasons; avoid March-May and October-November downpours for multi-day trips.",
+      "budget_level": "low-mid",
+      "typical_duration": "3-8 days",
+      "description": "About 227 km route along Lake Kivu from Rubavu in the north to Rusizi in the south, split into stages. Passes tea plantations, coffee washing stations and rural villages; suited to hiking or mountain biking, with guides and simple lodging.",
+      "activities": [
+        "multi-day hiking",
+        "mountain biking",
+        "kayaking sections",
+        "community stays"
+      ],
+      "costs_note": "Packages reported from about USD 1,300 for an all-inclusive 8-day tour; independent travel can be cheaper.",
+      "safety_note": "The northern start (Rubavu/Gisenyi) and southern end (Rusizi) are affected by border-area advisories. Consider doing only the middle section around Karongi, and check advice first.",
+      "access_from_kigali": "Transfers to start points take several hours.",
+      "tips": [],
+      "source_urls": [
+        "https://visitrwanda.com/?p=871",
+        "https://theculturetrip.com/africa/rwanda/articles/exploring-rwandas-congo-nile-trail",
+        "https://theabroadguide.com/?p=3098782"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "kigali-genocide-memorial",
+      "name": "Kigali Genocide Memorial",
+      "type": "memorial",
+      "region": "Kigali",
+      "district": "Gasabo",
+      "moods": [
+        "history",
+        "cultural",
+        "reflective"
+      ],
+      "interests": [
+        "memorial",
+        "genocide history",
+        "education"
+      ],
+      "best_season": "Year-round; indoor.",
+      "budget_level": "low",
+      "typical_duration": "2-3 hours",
+      "description": "Place of remembrance and learning for victims of the 1994 genocide against the Tutsi, with permanent exhibitions and mass graves holding the remains of over 250,000 people. Often recommended as the first stop to understand modern Rwanda.",
+      "activities": [
+        "exhibition tour",
+        "memorial gardens"
+      ],
+      "costs_note": "Check the official site for current opening and entry details.",
+      "safety_note": "A solemn site; dress respectfully and follow guidance on photography.",
+      "access_from_kigali": "In Kigali (Gisozi).",
+      "tips": [
+        "Allow time for reflection afterwards",
+        "Photography rules apply in some areas"
+      ],
+      "source_urls": [
+        "https://www.kgm.rw/",
+        "https://umutuzogendo.odoo.com/places-to-visit-in-kigali-city",
+        "https://www.kabiraugandasafaris.com/?p=2535"
+      ],
+      "source_confidence": "high",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "kandt-house-museum",
+      "name": "Kandt House Museum of Natural History",
+      "type": "museum",
+      "region": "Kigali",
+      "district": "Nyarugenge",
+      "moods": [
+        "cultural",
+        "history",
+        "family",
+        "rainy-day"
+      ],
+      "interests": [
+        "museum",
+        "natural history",
+        "colonial history",
+        "reptiles"
+      ],
+      "best_season": "Year-round; mostly indoor.",
+      "budget_level": "low",
+      "typical_duration": "1-2 hours",
+      "description": "Former home of Richard Kandt, the first German colonial resident, in what is considered Kigali's first modern house. Exhibits cover pre-colonial life, the colonial period, Kigali's history and natural history, including live reptiles.",
+      "activities": [
+        "museum visit",
+        "reptile exhibits",
+        "city views"
+      ],
+      "costs_note": "Check current entry fees locally.",
+      "safety_note": "Standard city precautions.",
+      "access_from_kigali": "In central Kigali (Nyarugenge hill).",
+      "tips": [],
+      "source_urls": [
+        "https://www.kabiraugandasafaris.com/?p=2535",
+        "https://en.skyticket.jp/guide/3871",
+        "https://www.newtimes.co.rw/article/171776/News/places-icasa-delegates-can-visit-after-their-busy-week"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "inema-arts-centre",
+      "name": "Inema Arts Centre",
+      "type": "arts",
+      "region": "Kigali",
+      "district": "Gasabo",
+      "moods": [
+        "cultural",
+        "art",
+        "creative",
+        "relaxing"
+      ],
+      "interests": [
+        "contemporary art",
+        "gallery",
+        "dance",
+        "music"
+      ],
+      "best_season": "Year-round.",
+      "budget_level": "low",
+      "typical_duration": "1-2 hours",
+      "description": "Gallery and creative hub founded in 2012 by two Rwandan painters, showing contemporary Rwandan paintings, sculpture and mixed media. Also hosts dance, concerts and workshops.",
+      "activities": [
+        "gallery visit",
+        "dance and music events",
+        "artist residency visits"
+      ],
+      "costs_note": "Entry and event pricing varies; contact the centre.",
+      "safety_note": "Standard city precautions.",
+      "access_from_kigali": "In Kigali.",
+      "tips": [],
+      "source_urls": [
+        "https://planetware.com/rwanda/top-things-to-do-places-to-visit-in-kigali-rw-1-2.htm",
+        "https://uncorneredmarket.com/Kigali_Hotels"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "kimironko-market",
+      "name": "Kimironko Market",
+      "type": "market",
+      "region": "Kigali",
+      "district": "Gasabo",
+      "moods": [
+        "cultural",
+        "budget",
+        "food",
+        "shopping",
+        "community"
+      ],
+      "interests": [
+        "local market",
+        "crafts",
+        "fruit and vegetables",
+        "fabrics"
+      ],
+      "best_season": "Year-round; mornings are busiest.",
+      "budget_level": "low",
+      "typical_duration": "1-2 hours",
+      "description": "Large local market with fresh produce, fabrics and handmade crafts, popular for souvenirs and everyday Kigali life.",
+      "activities": [
+        "souvenir shopping",
+        "street food",
+        "people watching"
+      ],
+      "costs_note": "Prices are negotiable.",
+      "safety_note": "Watch your belongings in crowded areas.",
+      "access_from_kigali": "In Kigali (Kimironko).",
+      "tips": [],
+      "source_urls": [
+        "https://www.kabiraugandasafaris.com/kigali-city-tour-rwanda.html",
+        "https://en.skyticket.jp/guide/3871"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "nyamirambo-womens-centre",
+      "name": "Nyamirambo Women's Centre Walk",
+      "type": "community",
+      "region": "Kigali",
+      "district": "Nyarugenge",
+      "moods": [
+        "cultural",
+        "community",
+        "food",
+        "budget"
+      ],
+      "interests": [
+        "neighbourhood walk",
+        "women's cooperative",
+        "local food",
+        "crafts"
+      ],
+      "best_season": "Year-round.",
+      "budget_level": "low",
+      "typical_duration": "3-4 hours",
+      "description": "Guided walk through the Nyamirambo neighbourhood run by a women's cooperative, with local food, crafts and everyday urban life.",
+      "activities": [
+        "guided neighbourhood walk",
+        "cooking and craft experiences"
+      ],
+      "costs_note": "Booking and prices set by the centre; confirm directly.",
+      "safety_note": "Standard city precautions.",
+      "access_from_kigali": "In Kigali.",
+      "tips": [],
+      "source_urls": [
+        "https://bujukuecotours.com/cultural-tours-in-rwanda-a-complete-guide-beyond-gorilla-trekking/",
+        "https://www.kabiraugandasafaris.com/kigali-city-tour-rwanda.html"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "rwanda-art-museum",
+      "name": "Rwanda Art Museum",
+      "type": "museum",
+      "region": "Kigali",
+      "district": "Kicukiro",
+      "moods": [
+        "cultural",
+        "art",
+        "history"
+      ],
+      "interests": [
+        "art museum",
+        "former presidential palace"
+      ],
+      "best_season": "Year-round.",
+      "budget_level": "low",
+      "typical_duration": "1-2 hours",
+      "description": "Housed in the former Presidential Palace, it shows contemporary art from Rwanda and abroad. Older sources call it the Presidential Palace Museum.",
+      "activities": [
+        "art exhibitions",
+        "palace grounds"
+      ],
+      "costs_note": "Check locally for entry details.",
+      "safety_note": "Standard precautions.",
+      "access_from_kigali": "On the outskirts of Kigali (Kanombe).",
+      "tips": [],
+      "source_urls": [
+        "https://umutuzogendo.odoo.com/places-to-visit-in-kigali-city",
+        "https://planetware.com/rwanda/top-things-to-do-places-to-visit-in-kigali-rw-1-2.htm"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "campaign-against-genocide-museum",
+      "name": "Campaign Against Genocide Museum",
+      "type": "museum",
+      "region": "Kigali",
+      "district": "Gasabo",
+      "moods": [
+        "history",
+        "cultural",
+        "rainy-day"
+      ],
+      "interests": [
+        "history museum",
+        "parliament building",
+        "city views"
+      ],
+      "best_season": "Year-round; indoor.",
+      "budget_level": "low",
+      "typical_duration": "1-2 hours",
+      "description": "Museum located in the Parliament building covering the 1994 liberation, with a viewpoint over the city.",
+      "activities": [
+        "museum exhibits",
+        "city view"
+      ],
+      "costs_note": "Check locally for entry details.",
+      "safety_note": "Standard precautions.",
+      "access_from_kigali": "In Kigali.",
+      "tips": [],
+      "source_urls": [
+        "https://www.kabiraugandasafaris.com/?p=2535",
+        "https://wegotrip.com/kigali-d1221"
+      ],
+      "source_confidence": "low",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "kings-palace-nyanza",
+      "name": "King's Palace Museum (Rukari), Nyanza",
+      "type": "museum",
+      "region": "Southern Province",
+      "district": "Nyanza",
+      "moods": [
+        "cultural",
+        "history",
+        "family"
+      ],
+      "interests": [
+        "royal history",
+        "traditional architecture",
+        "Inyambo cattle"
+      ],
+      "best_season": "Year-round.",
+      "budget_level": "low",
+      "typical_duration": "2-3 hours",
+      "description": "Reconstruction of the traditional royal residence, a beehive-shaped thatched dwelling, with insight into pre-colonial court life and the monarchy that ended in 1962. Descendants of the royal long-horned herd are kept nearby. Opened as a museum in 2008.",
+      "activities": [
+        "museum tour",
+        "royal cattle viewing"
+      ],
+      "costs_note": "Check locally for entry details.",
+      "safety_note": "Standard precautions.",
+      "access_from_kigali": "About 88 km southwest of Kigali.",
+      "tips": [
+        "Combine with the Ethnographic Museum in Huye"
+      ],
+      "source_urls": [
+        "https://rcb.rw/Rwandan-Museums.html",
+        "https://responsibletourismcompany.com/?p=22656",
+        "https://bujukuecotours.com/cultural-tours-in-rwanda-a-complete-guide-beyond-gorilla-trekking/"
+      ],
+      "source_confidence": "high",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "ethnographic-museum-huye",
+      "name": "Ethnographic Museum of Rwanda, Huye",
+      "type": "museum",
+      "region": "Southern Province",
+      "district": "Huye",
+      "moods": [
+        "cultural",
+        "history",
+        "education"
+      ],
+      "interests": [
+        "ethnography",
+        "traditional crafts",
+        "archaeology"
+      ],
+      "best_season": "Year-round.",
+      "budget_level": "low",
+      "typical_duration": "1-2 hours",
+      "description": "Rwanda's oldest national museum, inaugurated in 1989, holding more than 10,000 artefacts on traditional clothing, crafts, tools, instruments and beliefs.",
+      "activities": [
+        "museum visit"
+      ],
+      "costs_note": "Check locally for entry details.",
+      "safety_note": "Standard precautions.",
+      "access_from_kigali": "About 132 km south of Kigali.",
+      "tips": [],
+      "source_urls": [
+        "https://www.rwandaheritage.gov.rw/en/museum-and-heritages-sites-management-division-1",
+        "https://rcb.rw/Rwandan-Museums.html"
+      ],
+      "source_confidence": "high",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "iby-iwacu-cultural-village",
+      "name": "Iby'Iwacu Cultural Village",
+      "type": "community",
+      "region": "Northern Province",
+      "district": "Musanze",
+      "moods": [
+        "cultural",
+        "community",
+        "family",
+        "rest-day"
+      ],
+      "interests": [
+        "traditional dance",
+        "crafts",
+        "village life",
+        "community tourism"
+      ],
+      "best_season": "Year-round; good rest-day activity between gorilla treks.",
+      "budget_level": "low-mid",
+      "typical_duration": "Half day",
+      "description": "Community-run cultural village near Volcanoes National Park, set up to give former poachers a tourism-based livelihood. Visitors see traditional dance, crafts and village life.",
+      "activities": [
+        "dance performance",
+        "craft demos",
+        "village tour"
+      ],
+      "costs_note": "Package prices vary; one operator listed about USD 100 per person for groups of 7+ (not an official rate). Confirm directly.",
+      "safety_note": "Near the Volcanoes area; follow general northern-border guidance.",
+      "access_from_kigali": "Near Musanze/Kinigi, about 2 hours from Kigali (approximate).",
+      "tips": [],
+      "source_urls": [
+        "https://bujukuecotours.com/cultural-tours-in-rwanda-a-complete-guide-beyond-gorilla-trekking/",
+        "https://jewelsafaris.com/?p=41486"
+      ],
+      "source_confidence": "medium",
+      "last_verified": "2026-11-04"
+    },
+    {
+      "id": "lake-muhazi",
+      "name": "Lake Muhazi",
+      "type": "lake",
+      "region": "Eastern/Northern Province",
+      "district": "Gasabo, Rwamagana, Gicumbi",
+      "moods": [
+        "relaxing",
+        "family",
+        "budget",
+        "nature"
+      ],
+      "interests": [
+        "fishing",
+        "boating",
+        "birdwatching",
+        "lakeside lunch"
+      ],
+      "best_season": "Dry seasons.",
+      "budget_level": "low",
+      "typical_duration": "Half day-1 day",
+      "description": "Lake east of Kigali that suits a quiet day trip for boating, fishing and birdwatching.",
+      "activities": [
+        "boating",
+        "fishing",
+        "birding"
+      ],
+      "costs_note": "Not verified.",
+      "safety_note": "Standard precautions.",
+      "access_from_kigali": "East of Kigali (distance not verified).",
+      "tips": [],
+      "source_urls": [
+        "https://blog.primowater.com/world/countries/31-facts-about-rwanda"
+      ],
+      "source_confidence": "low",
+      "last_verified": "2026-11-04"
+    }
+  ]
+}

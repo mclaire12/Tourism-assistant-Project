@@ -1,0 +1,1 @@
+"""Rwanda Tourism Assistant package."""
